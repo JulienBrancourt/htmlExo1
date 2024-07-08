@@ -1,0 +1,157 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    position: relative;
+    margin: 10px;
+}
+
+.de {
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15%;
+    position: absolute;
+}
+
+.de2 {
+    left: 210px;
+}
+
+.de3 {
+    left: 420px;
+}
+
+.de4 {
+    top: 210px;
+}
+
+.de5 {
+    top: 210px;
+    left: 210px;
+}
+
+.de6 {
+    top: 210px;
+    left: 420px;
+}
+
+.point {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.de1 .point1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.de2 .point1 {
+    top: 25px;
+    left: 25px;
+}
+
+.de2 .point2 {
+    top: 75px;
+    left: 125px;
+}
+
+.de3 .point1 {
+    top: 25px;
+    left: 25px;
+}
+
+.de3 .point2 {
+    top: 25px;
+    left: 75px;
+}
+
+.de3 .point3 {
+    top: 25px;
+    left: 125px;
+}
+
+.de4 .point1 {
+    top: 25px;
+    left: 25px;
+}
+
+.de4 .point2 {
+    left: 125px;
+    top: -25px;
+}
+
+.de4 .point3 {
+    left: 125px;
+    top: 25px;  
+}
+
+.de4 .point4 {
+    left: 25px;
+    top: -25px;
+}
+
+.de5 .point1 {
+    top: 25px;
+    left: 25px;
+}
+
+.de5 .point2 {
+    left: 125px;
+    top: -25px;
+}
+
+.de5 .point3 {
+    left: 125px;
+    top: 25px;  
+}
+
+.de5 .point4 {
+    left: 25px;
+    top: -25px;
+}
+
+.de5 .point5 {
+    top: -125px;
+    left: 75px;
+}
+
+.de6 .point1 {
+    top: 20px;
+    left: 20px;
+}
+
+.de6 .point2 {
+    top: 30px;
+    left: 20px;
+}
+
+.de6 .point3 {
+    top: 40px;
+    left: 20px;
+}
+
+.de6 .point4 {
+    top: -130px;
+    left: 125px;
+}
+
+.de6 .point5 {
+    top: -120px;
+    left: 125px;
+}
+
+.de6 .point6 {
+    top: -110px;
+    left: 125px;
+}
